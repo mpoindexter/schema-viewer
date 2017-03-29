@@ -1,0 +1,76 @@
+.props-panel {
+  border-left: 3px solid grey;
+  height: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: lightgoldenrodyellow;
+  overflow: scroll;
+}
+
+.props-panel__name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.props-panel__title {
+  font-style: italic;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.props-panel__typeinfo {
+  display: flex;
+}
+
+.props-panel__type {
+  font-weight: bold;
+}
+
+.props-panel__required {
+  font-style: italic;
+}
+
+.props-panel__required::before {
+    content: '| ';
+    padding-left: 5px;
+    font-style: normal;
+}
+
+.props-panel__description {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid lightgray;
+
+  &.props-panel__description--empty {
+    border: none;
+  }
+}
+
+.props-panel__properties-section {
+  padding-top: 10px;
+}
+
+.props-panel__properties-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.props-panel__property {
+  display: flex;
+  border-top: 1px solid gray;
+}
+
+.props-panel__property-name {
+  width: 50%;
+  border-right: 1px solid grey;
+  font-weight: bold;
+}
+
+.props-panel__property-type {
+  width: 50%;
+  padding-left: 5px;
+}
+
+.props-panel__properties-container {
+  border-bottom: 1px solid gray;
+}
